@@ -1,0 +1,116 @@
+/*IMPORTS*/
+@import url('../vendors/font-awesome-4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Bangers|Courgette');
+
+/*FONTS*/
+
+h1.lead, h2.lead, a.webTitle, a.navbar-brand {
+	color: #ff0067;
+	text-shadow: 2px 2px black;
+	font-weight: 900;
+	letter-spacing: 6px;
+	font-family: 'Bangers', sans-serif;
+
+}
+
+h1.lead {
+	padding-top: 25%;
+	font-size: 67px;
+}
+
+h2.lead, a.webTitle {
+	font-size: 40px;
+}
+
+h3.aboutTeaser {
+	color: black;
+	text-shadow: 1px 1px darkgrey;
+	font-weight: bold;
+	font-size: 28px;
+}
+
+p, li {
+	font-size: 18px;
+	color: black;
+	line-height: 30px;
+}
+
+h1 {
+	color: #ff0067;
+}
+
+blockquote {
+	font-style: italic;
+	font-size: 24px;
+	font-family: 'Courgette', cursive;
+	font-weight: lighter;
+}
+
+.buy {
+	font-size: 14px;
+	font-style: italic;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+/*LAYOUT*/
+
+a #mobile-nav {
+	display: block;
+}
+
+#burger {
+	display: none;
+}
+
+#burger:hover{
+	cursor: pointer;
+}
+
+#mobile-nav {
+	display: none;
+}
+
+div.jumbotron {
+	background: url(../images/hero-img.png);
+	background-size: cover;
+	margin: 0;
+}
+
+a.btn-success {
+	background-color: #ff87c3;
+	border-color: #ff0067;
+}
+
+a.btn-success:hover {
+	background-color: #ff0067;
+	border-color: #ff0067;
+}
+
+a.btn-primary {
+	font-size: 16px;
+	font-family: 'Poppins', sans-serif;
+	margin: 1% 0;
+	display: inline-block;
+}
+
+img.parallax-slider {
+	opacity: 0.38;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th  {
+	border: none;
+}
+
+.table-responsive {
+	background-color: lightgrey;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 875px) {
+	
+}
